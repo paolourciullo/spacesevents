@@ -6,7 +6,7 @@ import { API_URL } from '@/config/index';
 export default function HomePage({ events }) {
   return (
     <Layout>
-      <h1>Upcoming Events</h1>
+      <h1>Upcoming Events, yo</h1>
       {events.length === 0 && <h3>No events to show yo</h3>}
 
       {events.map((evt) => (
