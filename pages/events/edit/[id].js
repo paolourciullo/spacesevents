@@ -68,6 +68,7 @@ export default function EditEventPage({ evt }) {
     const res = await fetch(`${API_URL}/events/${evt.id}`)
 
     const data = await res.json()
+    console.table(data)
     setImagePreview(data.image.formats.thumbnail.url)
     setShowModal(false)
   }
