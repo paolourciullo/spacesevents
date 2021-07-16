@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import styles from '@/styles/EventItem.module.css';
+import Link from 'next/link'
+import Image from 'next/image'
+import styles from '@/styles/EventItem.module.css'
 
 export default function EventItem({ evt }) {
   return (
@@ -10,7 +10,7 @@ export default function EventItem({ evt }) {
           src={
             evt.image
               ? evt.image.formats.thumbnail.url
-              : '/images/event-default.png'
+              : '/images/icons8-twitter-64.png'
           }
           width={170}
           height={100}
@@ -29,5 +29,5 @@ export default function EventItem({ evt }) {
         </Link>
       </div>
     </div>
-  );
+  )
 }
