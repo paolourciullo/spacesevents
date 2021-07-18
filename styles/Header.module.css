@@ -27,11 +27,12 @@
 .logo {
   color: red;
   font-size: 20px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 .logo a {
-  color: red;
+  color: magenta;
 }
 
 @media (max-width: 768px) {
