@@ -12,7 +12,7 @@ export default function Header() {
     <div className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
-          <a>DJ Events</a>
+          <a>Spaces Events</a>
         </Link>
       </div>
       <Search />
