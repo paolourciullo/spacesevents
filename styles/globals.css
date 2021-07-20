@@ -10,7 +10,7 @@ html,
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.8;
-  background-color: rgb(218, 216, 216);
+  background-color: rgb(233, 231, 231);
 }
 
 a {
@@ -28,7 +28,7 @@ h1 {
 
 .btn {
   display: inline-block;
-  background: magenta;
+  background: rgb(241, 90, 241);
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;
